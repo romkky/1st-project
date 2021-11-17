@@ -100,12 +100,6 @@ nav{
 .text-box h1{
   font-size: 42px;
 }
-.text-box p{
-  margin: 10px 0 40px;
-  font-size: 14px;
-  color: #849CBE;
-
-}
 nav .fa{
   display: none;
 }
@@ -116,9 +110,6 @@ nav .fa{
   }
   .text-box{
     width: 60vh;
-  }
-  .text-box p{
-    color: #fff;
   }
   .nav-links{
     position: absolute;
