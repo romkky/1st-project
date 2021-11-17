@@ -90,7 +90,7 @@ nav{
 .text-box p{
   margin: 10px 0 40px;
   font-size: 14px;
-  color: #849CBE;
+  color: #B4C2E4;
 }
 .title{
   font-size: 24px;
@@ -116,6 +116,9 @@ nav .fa{
   }
   .text-box{
     width: 60vh;
+  }
+  .text-box p{
+    color: #B4C2E4;
   }
   .nav-links{
     position: absolute;
