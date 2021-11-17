@@ -14,13 +14,18 @@ body{
   background-size: cover;
   position: fixed;
 }
+
 .header h1{
   text-align: center;
   position: absolute;
+  justify-content: center;
   margin: 20px 600px;
   padding-top: 5%;
   color: #fff;
 }
+
+
+
 footer{
   text-align: center;
   color: #fff;
@@ -66,13 +71,13 @@ nav{
   width: 100%;
 }
 .text-box{
-  width: 50%;
-  color: #685B8C;
+  width: 100vh;
+  color: #849CBE;
   background: rgba(255,255,255,.1);
   max-width: 600px;
   border-radius: 10px;
   box-sizing: border-box;
-  padding: 20px 12px;
+  padding: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -87,7 +92,11 @@ nav{
   font-size: 14px;
   color: #849CBE;
 }
-
+.title{
+  font-size: 24px;
+  width: 100%;
+  position: absolute;
+}
 .text-box h1{
   font-size: 42px;
 }
@@ -100,12 +109,13 @@ nav{
 nav .fa{
   display: none;
 }
-@media(max-width: 700px){
-  .text-box h1{
-    font-size: 20px;
-  }
+@media (max-width: 700px){
+
   .nav-links ul li{
     display: block;
+  }
+  .text-box{
+    width: 60vh;
   }
   .nav-links{
     position: absolute;
@@ -115,7 +125,7 @@ nav .fa{
     top: 0;
     right: -200px;
     text-align: left;
-    z-index: 2;
+    z-index: 1;
     transition: 1s;
   }
   nav .fa{
@@ -126,11 +136,5 @@ nav .fa{
     cursor: pointer;
   }
   .nav-links ul{
-    padding: 30px;
-  }
-  .row{
-    margin-top: 5%;
-    display: flex;
-    border: 10px;
-    flex-direction: column;
+    padding: 10px;
   }
