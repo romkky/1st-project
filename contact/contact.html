@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Roman's Cernenko</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+  <script src="https://kit.fontawesome.com/c70e60800e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="about.html">
+</head>
+
+<body>
+  <section class="header">
+
+    <nav>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+      <section>
+      <div class="text-box">
+        <h1></h1>
+        <p><i class="fa fa-instagram" aria-hidden="true"></i><a href="https://www.instagram.com/iromky/"> iromky</a><br>
+          <i class="fa fa-envelope" aria-hidden="true">romkky@gmail.com</i><br>
+          <i class="fa fa-mobile" aria-hidden="true">+44 7478712166</i><br>
+
+
+</p>
+      </div>
+    </section>
+    </section>
+  <!-- Javascript fot Toggle the Menu -->
+  <script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+    </script>
+
+    <footer class="foot">Created by Roman 2021</footer>
+</body>
+
+</html>
